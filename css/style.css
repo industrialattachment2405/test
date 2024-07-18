@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+}
+
+/* ====================
+product part start
+===================== */
+.product{
+    background: #CFA485;
+    padding-top: 36px;
+    padding-bottom: 200px;
+}
+.left{
+    width: 40%;
+   
+}
+
+.product .left h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+
+}
+.product .left p{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+    padding: 40px 0;
+
+}
+.product .left button{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: "Frank Ruhl Libre", serif;
+    background: #000;
+    padding: 16px 60px;
+    border: 0;
+    border-radius: 14px;
+
+}
+
+.right{
+    width: 60%;
+    display: flex;
+    column-gap: 40px;
+}
+
+.card{
+    width: 366px;
+    background: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    
+}
+.cardTwo{
+    padding: 0 22px;
+
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    
+}
+.iconbox{
+    display: flex;
+    column-gap: 8px;
+    padding: 15px 0;
+}
+.iconbox i{
+   color: #FFAF37;
+   
+}
+.card h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: "Frank Ruhl Libre", serif;
+
+
+}
+.parabox{
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 10px;
+}
+.parabox p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #C4C4C4;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+.parabox span{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+/* ====================
+product part end
+===================== */
